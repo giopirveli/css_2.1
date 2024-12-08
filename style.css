@@ -64,6 +64,10 @@ color: white;
 #WatchVideo img{
 margin-right: 12px;
 }
+#WatchVideo a {
+    color: #4D3491;
+    font-size: 18px;
+}
 #bankCards{
     width: 1311px;
 height: 761px;
