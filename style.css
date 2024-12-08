@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-header{
-    margin: 80px;
-}
 nav{
     width: 1140px;
 padding: 12px 80px;
@@ -20,6 +17,7 @@ text-align: center;
     display: inline-block;
     margin-left: 20px;
     font-size: 18px;
+    color: #323232;
 }
 nav input{
     padding: 8px 16px;
@@ -31,4 +29,46 @@ nav input{
 }
 #dontMargin{
     margin:  0;
+}
+#mainTexts{
+    width: 841px;
+    margin-left: 214px;
+}
+header{
+    margin-bottom: 64px;
+}
+#mainTexts h1{
+    font-size: 64px;
+    width: 720px;
+    color: #323232;
+}
+#mainTexts p{
+    font-size: 24px;
+    margin: 24px 0; 
+    color: #323232;
+}
+#WatchVideo{
+    display: inline-block;  
+}
+#mainTexts input{
+    border-radius: 8px;
+background-color: #5C3BAE;
+padding: 16px 24px;
+width: 204px;
+font-size: 18px;
+color: white;
+}
+#WatchVideo{
+    margin-left: 24px;
+}
+#WatchVideo img{
+margin-right: 12px;
+}
+#bankCards{
+    width: 1311px;
+height: 761px;
+margin-top: -128px;
+}
+#bankCards{
+    margin-left: auto;
 }
