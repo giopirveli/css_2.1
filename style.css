@@ -4,7 +4,7 @@
     padding: 0;
 }
 nav{
-    width: 1140px;
+    max-width: 1140px;
 padding: 12px 80px;
 text-align: center;
 }
@@ -26,12 +26,13 @@ nav input{
     color: #AC00FF;
     border-radius: 8px;
     background-color: #E9D7FE;
+    cursor: pointer;
 }
 #dontMargin{
     margin:  0;
 }
 #mainTexts{
-    width: 841px;
+    max-width: 841px;
     margin-left: 214px;
 }
 header{
@@ -39,7 +40,7 @@ header{
 }
 #mainTexts h1{
     font-size: 64px;
-    width: 720px;
+    max-width: 720px;
     color: #323232;
 }
 #mainTexts p{
@@ -53,23 +54,26 @@ header{
 #mainTexts input{
     border-radius: 8px;
 background-color: #5C3BAE;
-padding: 16px 24px;
 width: 204px;
+padding: 16px 24px;
 font-size: 18px;
 color: white;
+cursor: pointer;
+border: none;
 }
 #WatchVideo{
     margin-left: 24px;
 }
 #WatchVideo img{
 margin-right: 12px;
+vertical-align: middle;
 }
 #WatchVideo a {
     color: #4D3491;
     font-size: 18px;
 }
 #bankCards{
-    width: 1311px;
+    max-width: 1311px;
 height: 761px;
 margin-top: -128px;
 }
